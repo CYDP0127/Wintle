@@ -83,7 +83,7 @@
         width:300px;
     }
 
-    .SignUp input[type="submit"] {
+    .SignUp input[type="button"] {
         background-color: #2c90c6;
         border: 1px solid #2c90c6;
         border-radius: 15px;
@@ -99,7 +99,7 @@
         width: 340px;
     }
 
-    .SignUp input[type="submit"]:hover {
+    .SignUp input[type="button"]:hover {
         background-color: #2c70c6;
         box-shadow: 2px 2px 20px  #2c90c6, #fff 0 -1px 2px;
     }

@@ -25,9 +25,15 @@
     <iframe src="intro/introduction.html" width="100%" frameBorder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
 </div>
 
-</iframe>
 
-
-
+<div id="popup1" class="overlay">
+    <div class="popup">
+        <h2>Here i am</h2>
+        <a class="close" href="#">×</a>
+        <div class="content">
+            Thanks for pop me out of that button, but now i'm done so you can close this window.
+        </div>
+    </div>
+</div>
 </body>
 </html>
