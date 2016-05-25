@@ -28,10 +28,21 @@
 
 <div id="popup1" class="overlay">
     <div class="popup">
-        <h2>Here i am</h2>
+        <h2>Sign up for Wintle</h2>
         <a class="close" href="#">×</a>
         <div class="content">
-            Thanks for pop me out of that button, but now i'm done so you can close this window.
+            <div class="SignUp">
+                <span><img src="img/username.png"></span><input type="text" name="username" required placeholder="User name" autocomplete="off">
+
+                <span><img src="img/email.png"></span><input type="text" name="email_address" required placeholder="Your email address" autocomplete="off">
+
+                <span><img src="img/password.png"></span><input type="password" name="password" required placeholder="Enter a password" autocomplete="off">
+
+                <span><img src="img/password.png"></span><input type="password" name="repassword" required placeholder="Re-enter a password" autocomplete="off">
+
+                <p class="SignUpText">Use at least one letter<br> one numeral, and seven characters.</p>
+                <input type="button" value="Sign Up for Wintle">
+            </div>
         </div>
     </div>
 </div>

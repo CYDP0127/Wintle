@@ -1,17 +1,3 @@
-<?php
-
-function senddata(){
-    session_start();
-    
-
-
-}
-
-
-
-
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
